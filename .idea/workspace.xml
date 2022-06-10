@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79c10e9d-9163-4cf3-9f8b-f0bc00d23a7e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Jobs/CleanDataFrame.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jobs/DataService.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Additional Research/Flow charts/Night job flow.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/Additional Research/Flow charts/Night job flow.drawio" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jobs/NightJob.py" beforeDir="false" afterPath="$PROJECT_DIR$/Jobs/NightJob.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jobs/DataService.py" beforeDir="false" afterPath="$PROJECT_DIR$/Jobs/DataService.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,16 +111,6 @@
           <url>file://$PROJECT_DIR$/main.py</url>
           <line>46</line>
           <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Jobs/DataService.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Jobs/NightJob.py</url>
-          <line>38</line>
-          <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
