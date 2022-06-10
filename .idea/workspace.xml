@@ -2,18 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79c10e9d-9163-4cf3-9f8b-f0bc00d23a7e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Additional Research/Flow charts/Night job flow.drawio" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Additional Research/Way to analyze demog data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GlobalDefinitions/GlobalDefinitions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jobs/Job.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Jobs/NightJob.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jobs/CleanDataFrame.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jobs/DataService.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Additional Research/Flow charts/Night job flow.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/Additional Research/Flow charts/Night job flow.drawio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jobs/NightJob.py" beforeDir="false" afterPath="$PROJECT_DIR$/Jobs/NightJob.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -41,27 +47,27 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Src/Jobs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Roy\Projects\Standarto\Src\Jobs" />
       <recent name="E:\Roy\Projects\Standarto" />
+      <recent name="E:\Roy\Projects\Standarto\Src\Jobs" />
     </key>
   </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="Standarto" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="E:\Roy\Projects\Standarto\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -111,9 +117,14 @@
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>52</line>
-          <option name="timeStamp" value="28" />
+          <url>file://$PROJECT_DIR$/Jobs/DataService.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Jobs/NightJob.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

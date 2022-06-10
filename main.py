@@ -1,4 +1,4 @@
-from Src.Jobs.NightJob import NightJob
+from Jobs.DataService import DataService
 # import requests
 # import patoolib
 # import pandas as pd
@@ -49,5 +49,4 @@ from Src.Jobs.NightJob import NightJob
 # print('\nMovies List :\n', moviesList)
 # print (df.head(10))
 
-nightJob = NightJob()
-print(nightJob.CheckDateOfToday())
+ds = DataService()
