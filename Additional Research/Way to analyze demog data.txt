@@ -1,0 +1,7 @@
+from imdb import IMDb
+ia = IMDb()
+m = ia.get_movie('0780504', 'vote details')
+print('median', m.get('median'))
+print('arithmetic mean', m.get('arithmetic mean'))
+print('number of votes', m.get('number of votes'))
+print('demographics', m.get('demographics'))
