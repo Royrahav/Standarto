@@ -1,6 +1,6 @@
 class Job:
 
-    def __init__(self, job_type):
+    def __init__(self):
         pass
 
     def act(self):

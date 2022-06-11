@@ -1,7 +1,14 @@
+# importing sys
+import sys
+
+# adding Folder_2 to the system path
+sys.path.insert(0, 'E:\Roy\Projects\Standarto\GlobalDefinitions')
+sys.path.insert(0, 'E:\Roy\Projects\Standarto\Jobs')
+
 from datetime import datetime, date, timedelta
 import requests
-import GlobalDefinitions.GlobalDefinitions as gd
-from Jobs.Job import Job
+import GlobalDefinitions as gd
+from Job import Job
 import pandas as pd
 
 
@@ -40,8 +47,8 @@ class NightJob(Job):
         self.m_ratings_df = self.read_data_frame(gd.gz_files_output_path + gd.title_ratings_tsv_gz_name)
 
     def act(self):
-        if not self.check_date_of_today()\
-                and self.m_basics_df\
+        if not self.check_date_of_today() \
+                and self.m_basics_df \
                 and self.m_ratings_df:
             pass
         else:

@@ -1,6 +1,13 @@
+# importing sys
+import sys
+
+# adding Folder_2 to the system path
+sys.path.insert(0, 'E:\Roy\Projects\Standarto\Jobs')
+
 import pandas as pd
-from Jobs.NightJob import NightJob
+from NightJob import NightJob
 import os
+import sqlite3 as db
 
 
 class DataService:
@@ -10,6 +17,8 @@ class DataService:
         self.m_ratings_df, self.m_basics_df = nj.act()
         self.filter_data_frames()
         self.create_main_data_frame()
+        conn = db.connect('movies.db')
+        self.m_main_df.to_sql(name='movies', con=conn)
 
     def get_basics_df(self):
         return self.m_basics_df
@@ -46,3 +55,8 @@ class DataService:
     # m_akas_df = None
     m_ratings_df = pd.DataFrame()
     m_main_df = pd.DataFrame()
+
+
+if __name__ == "__main__":
+    while 1:
+        pass
